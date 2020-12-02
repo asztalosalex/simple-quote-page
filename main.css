@@ -12,13 +12,19 @@ body {
   width: 100%;
   height: 100vh;
   color: #333;
+  display: table;
 }
 
 .wrapper {
   padding-top: 4rem;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
+  padding: 0 5vw;
   text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: 600;
 }
 
 .quote {
@@ -30,4 +36,29 @@ body {
   font-family: 'Crimson Text', serif;
   font-size: 1.5rem;
   font-style: italic;
+}
+
+.button {
+  text-align: center;
+  color:black;
+  background-color:floralwhite;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+}
+@media (max-width: 768px) {
+  .quote {
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+  
+  .author {
+    font-weight: 600;
+  }
+  
 }
