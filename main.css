@@ -42,14 +42,26 @@ body {
   text-align: center;
   color:black;
   background-color:floralwhite;
-  text-decoration: none;
+  border-color:black;
   font-size: 1rem;
+  
+}
+
+.button a {
+  text-decoration: none;
   font-family: 'Julius Sans One', sans-serif;
+  color: black;
+  border-radius: 15px;
+}
+
+.button a:hover {
+  color: white;
 }
 
 .button:hover {
   background-color: black;
-  color: white;
+  border-color: white;
+  transition: background-color 1.5s ease-in-out;
 }
 @media (max-width: 768px) {
   .quote {
